@@ -9,7 +9,6 @@
     "watch": "ts-node-dev --respawn src/Union.ts",
     "serve": "ts-node-dev src/function.ts",
     "build": "tsc"
-    
   },
   "author": "Sagar Yenkar",
   "license": "ISC",
@@ -17,5 +16,4 @@
     "cypress": "^10.8.0",
     "cypress-xpath": "^2.0.1"
   }
-  
 }

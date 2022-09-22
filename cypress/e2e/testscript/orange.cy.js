@@ -3,7 +3,7 @@ describe('orageHRM TestSuite', function(){
 
      it('Verify URL', function(){
 
-        //cy.visit("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
+       
         cy.visit("/")
         
 

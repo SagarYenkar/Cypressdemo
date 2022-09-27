@@ -3,6 +3,8 @@ const { defineConfig } = require("cypress");
 module.exports = defineConfig({
   projectId: '73r3pj',
   reporter: 'cypress-mochawesome-reporter',
+  chromeWebSecurity: false,
+  
   e2e: {
     baseUrl: "https://opensource-demo.orangehrmlive.com",
     "watchForFileChanges": false,
